@@ -1,5 +1,5 @@
 import React from "react";
-import ProductDetail from "../../../components/products/productDetail";
+import ProductDetail from "./components/productDetail";
 import { notFound } from "next/navigation";
 
 const getProductsById = async (id) => {

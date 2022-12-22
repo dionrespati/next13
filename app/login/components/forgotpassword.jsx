@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import Avatar from '@mui/material/Avatar';
-import { checkValidEmail } from '../../module/utility';
+import { checkValidEmail } from '../../../module/utility';
 import PhoneAndroidOutlinedIcon from '@mui/icons-material/PhoneAndroidOutlined';
 
 const Forgotpassword = (props) => {

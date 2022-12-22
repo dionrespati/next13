@@ -15,7 +15,8 @@ import VisibilityOffOutlined from '@mui/icons-material/VisibilityOffOutlined';
 import AppRegistrationOutlinedIcon from '@mui/icons-material/AppRegistrationOutlined';
 import Alert from '@mui/material/Alert';
 import Avatar from '@mui/material/Avatar';
-import { checkValidEmail, checkStrengthPassword } from '../../module/utility';
+import { checkValidEmail, checkStrengthPassword } from '../../../module/utility';
+
 
 const Signup = (props) => {
   const { signUpData, setSignUpData} = props;

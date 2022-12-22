@@ -9,10 +9,10 @@ import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
-import Login from '../../components/login/login';
-import Signup from '../../components/login/signup';
+import Login from './components/login';
+import Signup from './components/login/signup';
 import Container from '@mui/material/Container';
-import Forgotpassword from '../../components/login/forgotpassword';
+import Forgotpassword from './components/login/forgotpassword';
 
 
 const LoginSignIn = () => {

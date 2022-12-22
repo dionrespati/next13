@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "./components/product";
+import Product from "../../components/product";
 import { notFound } from "next/navigation";
 import NoData from "../../components/noData";
 

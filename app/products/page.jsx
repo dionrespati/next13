@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from '../../components/products/product';
+import Product from '../products/components/product';
 
 const getProducts = async () => {
   const products = await fetch('https://dummyjson.com/products?skip=5&limit=100', { next: { revalidate: 20 } });

@@ -4,13 +4,10 @@ import Box  from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { maxWidth } from '@mui/system';
 
 const Category = (props) => {
   const { listCategories } = props;
-  console.log({listCategories});
   return (
     <Box
       sx={{
@@ -21,14 +18,12 @@ const Category = (props) => {
       <List>
         {listCategories.map(item => {
           return (
-            <>
-              <ListItem key={item} disablePadding>
-                <ListItemButton>
-                  <ListItemText primary={item} />
-                </ListItemButton>
-              </ListItem>
-            </>
-            )
+            <ListItem key={item} disablePadding>
+              <ListItemButton>
+                <ListItemText primary={item} />
+              </ListItemButton>
+            </ListItem>
+          );
         })}
       </List>
     </Box>

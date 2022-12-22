@@ -16,6 +16,7 @@ const SearchProduct = async ({ params : {searchTerm} }) => {
     return (
       <>
         <NoData message="We can not find the products you are looking for, please try another" />
+        <div>Okeee...</div>
       </>
     );
   }  
